@@ -1,0 +1,9 @@
+function csvparse,data
+
+; First line is column names
+colnames = strsplit(data[0],',',/extract)
+  
+arr2str()
+  
+return,str
+end
